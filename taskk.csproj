@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\.vs\ProjectSettings.json" />
+    <Content Include="wwwroot\css\.vs\VSWorkspaceState.json" />
+    <Content Include="wwwroot\img\.vs\ProjectSettings.json" />
+    <Content Include="wwwroot\img\.vs\VSWorkspaceState.json" />
+    <Content Include="wwwroot\js\.vs\ProjectSettings.json" />
+    <Content Include="wwwroot\js\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\.vs\slnx.sqlite" />
+    <None Include="wwwroot\img\.vs\slnx.sqlite" />
+    <None Include="wwwroot\js\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\.vs\css\v16\" />
+    <Folder Include="wwwroot\img\.vs\img\v16\" />
+    <Folder Include="wwwroot\js\.vs\js\v16\" />
+  </ItemGroup>
+
+</Project>
